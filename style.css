@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("./assets/background-image.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.card {
+    width: 350px;
+    padding: 3em;
+    border-radius: 5px;
+    border: 1px solid #CECECE;
+    box-shadow: 0 0 20px #fff;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.card form {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.card form label {
+    max-width: 100%;
+    padding-block: 0.5em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.card form input {
+    line-height: 2.5em;
+    padding-left: .5em;
+    border: none;
+    background-color: transparent;
+    border-bottom: #007bff 1px solid;
+}
+
+.card form label,
+input {
+    max-width: 350px;
+    width: 100%;
+    border: none;
+}
+
+.card form input:focus {
+    outline: none;
+}
+
+.card form button {
+    width: 100%;
+    padding: 1.5em 0;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+
+}
