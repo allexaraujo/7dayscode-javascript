@@ -15,7 +15,8 @@
         <form name="pessoas" class="form js-form">
             <label for="name">
                 Nome
-                <input placeholder="Insira seu nome" class="form-field js-field" type="text" name="name" id="name" required>
+                <input placeholder="Insira seu nome" pattern="[a-zA-Z]{3,120}" class="form-field js-field" type="text"
+                    name="name" id="name" required>
             </label>
             <label for="birth-date">
                 Data de Nascimento
